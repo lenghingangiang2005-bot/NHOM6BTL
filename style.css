@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:"Times New Roman", Times, serif;
+    font-size:16px;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.5;
+}
+
+/* Tiêu đề đồng nhất */
+
+h1{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+h2{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+h3{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+/* Form */
+
+input,
+select,
+textarea,
+button{
+    font-size:16px;
+}
+
+
+/* Sidebar */
+.sidebar{ width:250px; height:100vh; background:#2c3e50; position:fixed; top:0; left:0; display:flex; flex-direction:column; overflow-y:scroll; /* 👈 luôn có thanh cuộn */ overflow-x:hidden; }
+
+.sidebar h2{
+    color:white;
+    text-align:center;
+    padding:20px 0;
+    font-size:24px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    font-size:16px;
+}
+
+.sidebar a:hover{
+    background:#34495e;
+}
+
+/* Nội dung */
+
+.content{
+    margin-left:250px;
+    padding:30px;
+    font-size:16px;
+}
+.dataTables_wrapper{
+    width:100%;
+}
+
+.dataTables_wrapper .dataTables_filter{
+    margin-bottom:15px;
+}
+
+.dataTables_wrapper .dataTables_length{
+    margin-bottom:15px;
+}
+
+.dataTables_wrapper table{
+    width:100% !important;
+}
