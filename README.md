@@ -12,7 +12,7 @@
 
 1. Clone source:
 
-git clone https://github.com/lenghingangiang2005-bot/NHOM6BTL.git
+   git clone https://github.com/lenghingangiang2005-bot/NHOM6BTL.git
 
 2. Tạo database:
 
